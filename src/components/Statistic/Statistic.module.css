@@ -1,0 +1,23 @@
+.stat_title {
+  text-align: center;
+  font-size: 25px;
+}
+.stat_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+}
+.stat_item_text,
+.total_result,
+.positive_result {
+  font-size: 20px;
+}
+.stat_result {
+  font-weight: 700;
+  margin-left: 5px;
+}
+.total_result,
+.positive_result {
+  padding-top: 20px;
+}
